@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import axios from 'axios';
+import  { useState } from 'react';
+
 import { Navbar } from '../components/Navbar';
 import { Github, Linkedin, Code } from 'lucide-react';
 
