@@ -100,7 +100,7 @@ export const Contact = () => {
             <Linkedin className="w-8 h-8 hover:text-blue-400 transition duration-200" />
           </a>
           <a
-            href="https://github.com/Abishek00ujj"
+            href="https://github.com/Jeevapriya14"
             target="_blank"
             rel="noopener noreferrer"
           >
