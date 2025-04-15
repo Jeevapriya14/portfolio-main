@@ -12,15 +12,9 @@ import { Github, Linkedin, Code } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { Procomponent } from '../components/Procomponent';
 import { Loader } from 'lucide-react';
-import { useCallback } from "react";
-import Particles from "react-tsparticles";
-import { loadFull } from "tsparticles";
 
-export const Home = () => {
-  const particlesInit = useCallback(async engine => {
-    await loadFull(engine);
-  }, []);
-  const particlesLoaded = useCallback(async () => {}, []);
+
+
   const url = "https://67fd20ce3da09811b174c8aa.mockapi.io/project";
   const [projects, setProjects] = useState([]);
   const [loading, setLoading] = useState(true); 
@@ -87,38 +81,7 @@ export const Home = () => {
   return (
     <div>
       <Navbar />
-      <Particles
-  id="tsparticles"
-  init={particlesInit}
-  loaded={particlesLoaded}
-  options={{
-    background: {
-      color: {
-        value: "white",
-      },
-    },
-    fullScreen: {
-      enable: true,
-      zIndex: -1,
-    },
-    particles: {
-      number: {
-        value: 60,
-      },
-      size: {
-        value: 3,
-      },
-      move: {
-        enable: true,
-        speed: 1,
-      },
-      links: {
-        enable: true,
-        color: "#ffffff",
-      },
-    },
-  }}
-/>
+      
 
 
       <div className="flex flex-col-reverse justify-center w-screen min-h-screen md:flex-row md:justify-between">
