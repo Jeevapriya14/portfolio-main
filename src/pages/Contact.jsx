@@ -86,21 +86,21 @@ export const Contact = () => {
         <h3 className="mb-4 text-lg">Connect with Me</h3>
         <div className="flex justify-center space-x-6">
           <a
-            href="https://leetcode.com/u/abisheks123/"
+            href="https://leetcode.com/u/Jeevapriya14/"
             target="_blank"
             rel="noopener noreferrer"
           >
             <Code className="w-8 h-8 hover:text-orange-400 transition duration-200" />
           </a>
           <a
-            href="https://www.linkedin.com/in/abishek-s-336b612b9?fromQR=1"
+            href="https://www.linkedin.com/in/jeevapriya-r-a10840244/"
             target="_blank"
             rel="noopener noreferrer"
           >
             <Linkedin className="w-8 h-8 hover:text-blue-400 transition duration-200" />
           </a>
           <a
-            href="https://github.com/Abishek00ujj"
+            href="https://github.com/Jeevapriya14"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -108,9 +108,9 @@ export const Contact = () => {
           </a>
         </div>
         <p className="mt-4 text-sm">
-          &copy; 2024 Abishek. All rights reserved.
+          &copy; 2025 Jeevapriya. All rights reserved.
           <br />
-          Made with ❤ by Abishek
+          Made with ❤ by Jeevapriya
         </p>
       </footer>
     </>
