@@ -191,7 +191,9 @@ export const Home = () => {
               />
             ))
           ) : (
-            <p className="text-gray-600">No projects available.</p> 
+            <p className="text-white
+
+            -600">No projects available.</p> 
           )}
         </div>
       </div>
@@ -241,7 +243,9 @@ export const Home = () => {
             <Linkedin className="w-8 h-8 transition duration-200 hover:text-blue-400" />
           </a>
           <a href="https://github.com/Jeevapriya14" target="_blank" rel="noopener noreferrer">
-            <Github className="w-8 h-8 transition duration-200 hover:text-gray-400" />
+            <Github className="w-8 h-8 transition duration-200 hover:text-white
+            
+            -400" />
           </a>
         </div>
         <p className="mt-4 text-sm">&copy; 2024 Abishek. All rights reserved.<br/><p>Made with ❤ by Abishek</p></p>
