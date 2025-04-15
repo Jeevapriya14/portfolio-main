@@ -193,14 +193,14 @@ export const Home = () => {
           <a href="https://leetcode.com/u/Jeevapriya_R/" target="_blank" rel="noopener noreferrer">
             <Code className="w-8 h-8 transition duration-200 hover:text-orange-400" />
           </a>
-          <a href="https://www.linkedin.com/in/abishek-s-336b612b9?fromQR=1 " target="_blank" rel="noopener noreferrer">
+          <a href="https://www.linkedin.com/in/jeevapriya-r-a10840244/" target="_blank" rel="noopener noreferrer">
             <Linkedin className="w-8 h-8 transition duration-200 hover:text-blue-400" />
           </a>
           <a href="https://github.com/Jeevapriya14" target="_blank" rel="noopener noreferrer">
             <Github className="w-8 h-8 transition duration-200 hover:text-gray-400" />
           </a>
         </div>
-        <p className="mt-4 text-sm">&copy; 2024 Abishek. All rights reserved.<br/><p>Made with ❤ by Abishek</p></p>
+        <p className="mt-4 text-sm">&copy; 2025 Jeevapriya. All rights reserved.<br/><p>Made with ❤ by Jeevapriya</p></p>
       </footer>
     </div>
   );
