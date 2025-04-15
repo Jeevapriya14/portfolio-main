@@ -20,7 +20,7 @@ export const Admin = () => {
       <Navbar />
       <div className='flex justify-center items-center flex-col backdrop-blur-sm w-screen h-screen'>
         <div>
-          <p className='text-orange-400 font-mono text-4xl'>WELCOME ABI!</p>
+          <p className='text-orange-400 font-mono text-4xl'>WELCOME!</p>
         </div>
         <div>
           <button className='border-2 text-orange-400 p-8 rounded-lg bg-black w-auto h-30 m-5'>
