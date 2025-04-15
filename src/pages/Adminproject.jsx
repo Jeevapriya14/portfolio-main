@@ -43,7 +43,7 @@ export const Adminproject = () => {
       <h1 className='text-4xl text-orange-400 font-serif'>Welcome Admin!</h1>
       <div>
         <div className="flex flex-col items-center justify-center w-screen h-screen">
-          <form onSubmit={handleSubmit} className="text-black  flex flex-col items-center justify-center p-10  backdrop-blur-lg border-2 border-white rounded-xl">
+          <form onSubmit={handleSubmit} className="text-white  flex flex-col items-center justify-center p-10  backdrop-blur-lg border-2 border-white rounded-xl">
             <h3 className='font-serif text-white text-2xl pb-10'>ADD-PROJECTS</h3>
             <input required ref={titleref} className="border-2 border-solid border-purple-600 p-2.5 mb-10 rounded-md placeholder-slate-500" type="text" placeholder="Title" />
             <input required ref={descref} className="border-2 p-2.5 mb-10 rounded-md border-purple-600 placeholder-slate-500" type="text" placeholder="Description" />

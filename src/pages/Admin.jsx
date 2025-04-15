@@ -23,14 +23,14 @@ export const Admin = () => {
           <p className='text-orange-400 font-mono text-4xl'>WELCOME ABI!</p>
         </div>
         <div>
-          <button className='border-2 text-orange-400 p-8 rounded-lg bg-black w-auto h-30 m-5'>
+          <button className='border-2 text-orange-400 p-8 rounded-lg bg-white w-auto h-30 m-5'>
             <Link to={'/adminproject'}>
               <div className='flex items-center'>
                 <PlusIcon className="mr-2" /> Add projects
               </div>
             </Link>
           </button>
-          <button className='border-2 text-orange-400 p-8 rounded-lg bg-black w-auto h-30'>
+          <button className='border-2 text-orange-400 p-8 rounded-lg bg-white w-auto h-30'>
             <Link to={'/adminblog'}>
               <div className='flex items-center'>
                 <PlusIcon className="mr-2" /> Add blogs

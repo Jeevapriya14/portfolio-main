@@ -21,7 +21,7 @@ export const Procomponent = (props) => {
   };
 
   return (
-    <div className="border-2 border-white bg-black rounded-lg p-4 flex flex-col justify-center items-center w-[350px] shadow-2xl m-10">
+    <div className="border-2 border-white bg-white rounded-lg p-4 flex flex-col justify-center items-center w-[350px] shadow-2xl m-10">
       <div className="w-[320px] h-[180px]">
         <a href={props.previewlink} target="_blank" rel="noopener noreferrer">
           <img
@@ -41,14 +41,14 @@ export const Procomponent = (props) => {
             href={props.gitlink}
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-white text-black flex items-center justify-center px-4 py-2 rounded-md font-semibold shadow-md hover:bg-gray-200">
+            className="bg-white text-white flex items-center justify-center px-4 py-2 rounded-md font-semibold shadow-md hover:bg-gray-200">
             View Project <Github className="ml-2" />
           </a>
           <a
             href={props.previewlink || props.previewlink}
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-white text-black flex items-center justify-center px-4 py-2 rounded-md font-semibold shadow-md hover:bg-gray-200">
+            className="bg-white text-white flex items-center justify-center px-4 py-2 rounded-md font-semibold shadow-md hover:bg-gray-200">
             LIVE <Eye className="ml-2" fill='orange' color='white' />
           </a>
         </div>

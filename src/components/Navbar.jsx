@@ -87,13 +87,13 @@ export const Navbar = () => {
       </div>
       {visible && (
         <div className="fixed top-0 left-0 w-full h-full z-30 backdrop-blur-sm flex justify-center items-center">
-          <div className="fixed w-[90vw] md:w-[44vw] h-[40vh] flex-col justify-center items-center bg-black border-2 text-white flex z-20 rounded-md">
+          <div className="fixed w-[90vw] md:w-[44vw] h-[40vh] flex-col justify-center items-center bg-white border-2 text-white flex z-20 rounded-md">
             <div className="flex justify-end w-full p-4">
               <X className="text-red-600 border-2 rounded-full" onClick={() => setVisible(false)} />
             </div>
             <p>Codewithabi - Admin login</p>
-            <input ref={idref} className="m-3 rounded-md text-black" placeholder="ID" />
-            <input ref={passref} className="m-3 rounded-md text-black" placeholder="PASSWORD" />
+            <input ref={idref} className="m-3 rounded-md text-white" placeholder="ID" />
+            <input ref={passref} className="m-3 rounded-md text-white" placeholder="PASSWORD" />
             <button onClick={handleLogin} className="mb-4 rounded-md bg-green-600 p-2">Login</button>
             {error && <p className="text-red-500">{error}</p>}
           </div>

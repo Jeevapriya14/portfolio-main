@@ -94,7 +94,7 @@ export const Home = () => {
   options={{
     background: {
       color: {
-        value: "black",
+        value: "white",
       },
     },
     fullScreen: {

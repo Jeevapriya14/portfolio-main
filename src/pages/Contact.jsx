@@ -52,20 +52,20 @@ export const Contact = () => {
             name="name"
             placeholder="Your Name"
             required
-            className="w-full p-4 border border-gray-300 rounded-xl focus:border-black"
+            className="w-full p-4 border border-gray-300 rounded-xl focus:border-white"
           />
           <input
             type="email"
             name="email"
             placeholder="Your Email"
             required
-            className="w-full p-4 border border-gray-300 rounded-xl focus:border-black"
+            className="w-full p-4 border border-gray-300 rounded-xl focus:border-white"
           />
           <textarea
             name="message"
             placeholder="Your Message"
             required
-            className="w-full p-4 border border-gray-300 rounded-xl focus:border-black"
+            className="w-full p-4 border border-gray-300 rounded-xl focus:border-white"
           ></textarea>
           <button
             type="submit"
