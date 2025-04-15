@@ -13,8 +13,7 @@ import { Link } from 'react-router-dom';
 import { Procomponent } from '../components/Procomponent';
 import { Loader } from 'lucide-react';
 
-
-
+export const Home = () => {
   const url = "https://67fd20ce3da09811b174c8aa.mockapi.io/project";
   const [projects, setProjects] = useState([]);
   const [loading, setLoading] = useState(true); 
@@ -42,7 +41,7 @@ import { Loader } from 'lucide-react';
     reactjs: 0,
     expressjs: 0,
     javascript: 0,
-    python: 0,
+    c: 0,
     tailwind: 0,
   });
 
@@ -57,7 +56,7 @@ import { Loader } from 'lucide-react';
             reactjs: 60,
             expressjs: 65,
             javascript: 80,
-            c: 85,
+            c: 95,
             tailwind: 80,
           });
         }
@@ -75,15 +74,9 @@ import { Loader } from 'lucide-react';
     };
   }, []);
   
-    
-  
-  
   return (
     <div>
       <Navbar />
-      
-
-
       <div className="flex flex-col-reverse justify-center w-screen min-h-screen md:flex-row md:justify-between">
         <div className="w-full md:w-[50%] flex flex-col items-center justify-center">
           <div className="w-[80%] h-[20%] flex flex-col justify-center text-orange-400 font-bold text-3xl md:text-5xl m-5 md:m-10">
@@ -154,9 +147,7 @@ import { Loader } from 'lucide-react';
               />
             ))
           ) : (
-            <p className="text-white
-
-            -600">No projects available.</p> 
+            <p className="text-gray-600">No projects available.</p> 
           )}
         </div>
       </div>
@@ -206,9 +197,7 @@ import { Loader } from 'lucide-react';
             <Linkedin className="w-8 h-8 transition duration-200 hover:text-blue-400" />
           </a>
           <a href="https://github.com/Jeevapriya14" target="_blank" rel="noopener noreferrer">
-            <Github className="w-8 h-8 transition duration-200 hover:text-white
-            
-            -400" />
+            <Github className="w-8 h-8 transition duration-200 hover:text-gray-400" />
           </a>
         </div>
         <p className="mt-4 text-sm">&copy; 2024 Abishek. All rights reserved.<br/><p>Made with ❤ by Abishek</p></p>

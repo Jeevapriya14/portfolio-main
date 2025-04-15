@@ -52,20 +52,20 @@ export const Contact = () => {
             name="name"
             placeholder="Your Name"
             required
-            className="w-full p-4 border border-gray-300 rounded-xl focus:border-white"
+            className="w-full p-4 border border-gray-300 rounded-xl focus:border-black"
           />
           <input
             type="email"
             name="email"
             placeholder="Your Email"
             required
-            className="w-full p-4 border border-gray-300 rounded-xl focus:border-white"
+            className="w-full p-4 border border-gray-300 rounded-xl focus:border-black"
           />
           <textarea
             name="message"
             placeholder="Your Message"
             required
-            className="w-full p-4 border border-gray-300 rounded-xl focus:border-white"
+            className="w-full p-4 border border-gray-300 rounded-xl focus:border-black"
           ></textarea>
           <button
             type="submit"
@@ -100,7 +100,7 @@ export const Contact = () => {
             <Linkedin className="w-8 h-8 hover:text-blue-400 transition duration-200" />
           </a>
           <a
-            href="https://github.com/Jeevapriya14"
+            href="https://github.com/Abishek00ujj"
             target="_blank"
             rel="noopener noreferrer"
           >
