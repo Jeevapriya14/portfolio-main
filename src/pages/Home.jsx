@@ -12,8 +12,15 @@ import { Github, Linkedin, Code } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { Procomponent } from '../components/Procomponent';
 import { Loader } from 'lucide-react';
+import { useCallback } from "react";
+import Particles from "react-tsparticles";
+import { loadFull } from "tsparticles";
 
 export const Home = () => {
+  const particlesInit = useCallback(async engine => {
+    await loadFull(engine);
+  }, []);
+  const particlesLoaded = useCallback(async () => {}, []);
   const url = "https://67fd20ce3da09811b174c8aa.mockapi.io/project";
   const [projects, setProjects] = useState([]);
   const [loading, setLoading] = useState(true); 
@@ -41,7 +48,7 @@ export const Home = () => {
     reactjs: 0,
     expressjs: 0,
     javascript: 0,
-    c: 0,
+    python: 0,
     tailwind: 0,
   });
 
@@ -56,7 +63,7 @@ export const Home = () => {
             reactjs: 60,
             expressjs: 65,
             javascript: 80,
-            c: 95,
+            c: 85,
             tailwind: 80,
           });
         }
@@ -74,9 +81,46 @@ export const Home = () => {
     };
   }, []);
   
+    
+  
+  
   return (
     <div>
       <Navbar />
+      <Particles
+  id="tsparticles"
+  init={particlesInit}
+  loaded={particlesLoaded}
+  options={{
+    background: {
+      color: {
+        value: "black",
+      },
+    },
+    fullScreen: {
+      enable: true,
+      zIndex: -1,
+    },
+    particles: {
+      number: {
+        value: 60,
+      },
+      size: {
+        value: 3,
+      },
+      move: {
+        enable: true,
+        speed: 1,
+      },
+      links: {
+        enable: true,
+        color: "#ffffff",
+      },
+    },
+  }}
+/>
+
+
       <div className="flex flex-col-reverse justify-center w-screen min-h-screen md:flex-row md:justify-between">
         <div className="w-full md:w-[50%] flex flex-col items-center justify-center">
           <div className="w-[80%] h-[20%] flex flex-col justify-center text-orange-400 font-bold text-3xl md:text-5xl m-5 md:m-10">
